@@ -3,15 +3,15 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_bank_payment'
   s.version     = '2.2.1'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Spree extension to create bank transfer payment method.'
+  s.description = 'This Spree extension allows admin to provide bank transfer payment method to its users.'
   s.required_ruby_version = '>= 1.9.3'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
+  s.author    = 'Pahlevi Fikri Auliya'
+  s.email     = 'pahlevi.fikri.auliya@gmail.com'
   # s.homepage  = 'http://www.spreecommerce.com'
 
-  #s.files       = `git ls-files`.split("\n")
+  s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
