@@ -1,4 +1,4 @@
-SpreeBankPayment
+Spree Bank Payment
 ================
 
 Introduction goes here.
