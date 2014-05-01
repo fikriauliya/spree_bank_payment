@@ -3,11 +3,13 @@
     <tr>
       <th>Name</th>
       <th>Account No</th>
+      <th>Account Name</th>
     </tr>
     <% banks.each do |bank| %>
       <tr>
         <td><%= bank.name %></td>
         <td><%= bank.account_no %></td>
+        <td><%= bank.account_name %></td>
       </tr>
     <% end %>
   </table>
